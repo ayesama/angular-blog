@@ -1,0 +1,28 @@
+.container__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.content__cover img {
+    width: 500px;
+    min-width: 500px;
+    border: solid gray 3px;
+}
+.content__description {
+    margin-top: 30px;
+}
+.content__description p {
+    color: rgb(200, 200, 200);
+    max-width: 500px;
+    text-align: center;
+}
+.content__voltar a {
+    font-size: 10px;
+}
+.content__title {
+    margin-top: 20px;
+}
