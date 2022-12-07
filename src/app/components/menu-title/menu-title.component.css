@@ -1,0 +1,10 @@
+.container__menu-title h1 {
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.container__menu-title hr {
+    margin: 20px 0;
+}
