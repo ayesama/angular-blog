@@ -1,5 +1,5 @@
 .container__small-card {
-    width: 500px;
+    width: 600px;
     display: flex;
     flex-direction: row;
     margin-top: 15px;
@@ -13,4 +13,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 10px;
+}
+.small-card__title h1 {
+    font-size: 25px;
 }

@@ -1,16 +1,32 @@
-<header>
-    <app-menu-bar></app-menu-bar>
-</header>
-<app-menu-title></app-menu-title>
-<div class="container__articles">
-    <div class="articles__main">
-        <app-big-card></app-big-card>
-    </div>
-    <div class="articles__others">
-        <app-small-card></app-small-card>
-        <hr>
-        <app-small-card></app-small-card>
-        <hr>
-        <app-small-card></app-small-card>
+<div class="container__main">
+    <header>
+        <app-menu-bar></app-menu-bar>
+    </header>
+    <app-menu-title></app-menu-title>
+    <div class="container__articles">
+        <div class="articles__main">
+            <app-big-card 
+            photoCover="https://jovemnerd.com.br/wp-content/uploads/ads_ironman2_0312.jpg"
+            cardTitle="Novo filme do Homem de ferro anunciado"
+            cardDescription="Marvel studios anuncia novo filme do homem de ferro para o primeiro trimeste de 2024. Segundo rumores, veremos Tony Stark criar uma armadura para sua filha."
+            newsLink="news/novo_homem_de_ferro_marvel_2024/"
+            ></app-big-card>
+        </div>
+        <div class="articles__others">
+            <app-small-card
+            photoCover="https://cafecomnerd.com.br/wp-content/uploads/2022/11/WANDINHA-2-Segunda-temporada-pode-incluir-mais-dos-membros-da-Familia-Addams-conforme-co-showrunner-Miles-Millar.jpg"
+            cardTitle="Wandinha: 2ª temporada é confirmada pela netflix"
+            newsLink="news/Wandinha_netflix_confirmada_2_temporada/"
+            ></app-small-card>
+            <app-small-card
+            photoCover="https://adrenaline.com.br/uploads/chamadas/Marvels_Spider_Man_comparacao_PC_e_PlayStation_5.jpg"
+            cardTitle="Spider Man: Miles Morales é eleito o jogo do ano de 2022"
+            newsLink="news/homem_aranha_jogo_do_ano/"
+            ></app-small-card><app-small-card
+            photoCover="https://epipoca.com.br/wp-content/uploads/2021/08/The-Flash-Divulgacao.jpg"
+            cardTitle="Flash é o herói da DC mais amado de todos os tempos"
+            newsLink="news/flash_melhor_super-heroi/"
+            ></app-small-card>
+        </div>
     </div>
 </div>
