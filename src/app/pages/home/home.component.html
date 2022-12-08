@@ -1,9 +1,9 @@
 <div class="container__main">
     <div class="container__articles">
         <div class="articles__main">
-            <ng-container *ngFor="let news of newsData; first as isFirst">
+            <ng-container *ngFor="let news of newsArray; first as isFirst">
                 <app-big-card *ngIf="isFirst"
-                [photoCover]="news.photo"
+                [photoCover]="news.imagem"
                 [cardTitle]="news.title"
                 [cardDescription]="news.description"
                 [newsLink]="news.id"
@@ -11,9 +11,9 @@
             </ng-container>
         </div>
         <div class="articles__others">
-            <ng-container *ngFor="let news of newsData; index as i">
+            <ng-container *ngFor="let news of newsArray; index as i">
                 <app-small-card *ngIf="i > 0 && i <= 3"
-                [photoCover]="news.photo"
+                [photoCover]="news.imagem"
                 [cardTitle]="news.title"
                 [newsLink]="news.id"
                 ></app-small-card>

@@ -25,4 +25,9 @@
 }
 .content__title {
     margin-top: 20px;
+    text-align: center;
+}
+.content__title h1 {
+    margin-bottom: 20px;
+    padding: 20px 200px
 }
